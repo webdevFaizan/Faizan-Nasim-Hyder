@@ -47,49 +47,6 @@ writingAll('item', 'fillhere');
 
 
 
-// let wrapper;
-// const sleep = (ms)=> new Promise(resolve=>setTimeout(resolve,ms));
-
-
-// async function functionCall(a, b){
-//   wrapper=document.querySelector(`.${b}`);
-//   stringList=document.getElementsByClassName(a);
-//   // console.log(stringList[].innerText);
-//   let i=0;
-//   while(true){
-    
-//     for(i=0; i<stringList.length; ++i){
-//       currentString=stringList[i%stringList.length].innerText;
-//       await create(currentString);
-//       await sleep(1000);
-//       await erase();
-//       await sleep(1000);
-//       // i++;
-//     }
-//   }
-// }
-
-// async function create(currentString){
-//   for(i=0; i<currentString.length; i++){
-//     await sleep(150);
-//     wrapper.innerText=currentString.substring(0,i+1);
-//   }
-// }
-
-// async function erase(){
-//   while(wrapper.innerText){
-//     await sleep(60);
-//     wrapper.innerText=wrapper.innerText.substring(0,wrapper.innerText.length-2);
-//   }
-// }
-
-// functionCall('item','fillhere');
-// console.log('hi');
-
-
-
-
-
 
 
 
