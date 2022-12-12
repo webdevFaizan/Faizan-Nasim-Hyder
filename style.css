@@ -36,6 +36,17 @@ html {
     background-color: rgb(224, 224, 224);
 }
 
+.position-fixed{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /* color: black; */
+    background-color: black;
+    opacity : 0.8;
+    /* border: 2px solid red; */
+    z-index: 399;
+}
+
 .horizontal-list{
     list-style: none;        
     padding: 10px;
@@ -61,7 +72,7 @@ html {
 
 
 #name-social-container{
-    margin-top: 10vh;
+    /* margin-top: 10vh; */
     /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
@@ -69,6 +80,9 @@ html {
     align-items: center;
 }
 
+.extra-space{
+    min-height: 70px;
+}
 
 #my-name{
     color: white;
